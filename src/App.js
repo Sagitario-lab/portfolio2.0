@@ -10,7 +10,7 @@ function App() {
       <Sidebar></Sidebar>
       <Routes>
         <Route path='/'></Route>
-        <Route path='/whoami'element={<Whoami/>} ></Route>
+        <Route path='/whoami' element={<Whoami/>} ></Route>
         <Route path='/experiences' element={<Experiences />}></Route>
         <Route path='/knowledge'></Route>
         <Route path='/contact'></Route>

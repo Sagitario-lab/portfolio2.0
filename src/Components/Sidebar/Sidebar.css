@@ -2,8 +2,8 @@
 
 .portfolio-cont {
   background-color: rgba(0, 0, 0, 0.527);
-  width: 15vw;
-  padding: 1%;
+  width: 20vw;
+  padding: 2%;
   font-size: 1.5rem;
   height: 100vh;
 }
@@ -17,7 +17,7 @@
 
 .link-cont {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
 }

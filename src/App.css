@@ -1,5 +1,9 @@
 .App {
-
+  background-image: url('./Img/oni.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
   color: lightgray;
   display: flex;
 }

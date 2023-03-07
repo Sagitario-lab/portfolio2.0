@@ -33,6 +33,9 @@ export const Experiences = () => {
           <Grid item xs={12} md={6}>
             <h1 className='exp'>MICROSOFT SQL SERVER</h1>
           </Grid>
+          <Grid item xs={12} md={6}>
+            <h1 className='exp'>PHOTOSHOP</h1>
+          </Grid>
         </Grid>
       </div>
     </div>
