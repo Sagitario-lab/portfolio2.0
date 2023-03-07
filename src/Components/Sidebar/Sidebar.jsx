@@ -7,8 +7,8 @@ const Sidebar = () => {
     <div className='portfolio-cont'>
       <h1 className='portfolio'>Portfolio</h1>
 
-      <div className='link-cont'>
-        <Link className='navegator'>Who am I?</Link>
+      <nav className='link-cont'>
+        <Link className='navegator' to={"/whoami"}>Who am I?</Link>
         <Link className='navegator' to="/experiences">Experiences</Link>
         <Link className='navegator'>Knowledge</Link>
         <Link className='navegator'>Contact me!</Link>
@@ -28,7 +28,7 @@ const Sidebar = () => {
             <i className='pi pi-linkedin git-linkedin'></i>
           </a>
         </div>
-      </div>
+      </nav>
     </div>
   );
 };

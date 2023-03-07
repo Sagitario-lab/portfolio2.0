@@ -1,0 +1,18 @@
+.experiences-cont{
+    display: flex;
+    justify-content: center; 
+    font-family: "Rajdhani";
+    padding: 1%;
+}
+
+.exp{
+    color: rgb(114, 234, 248);
+    border: 2px solid rgb(255, 0, 60);
+    border-bottom-right-radius: 25px;
+    padding: 1%;
+}
+.exp:hover{
+    transition: 1s;
+    box-shadow: 0px 0px 15px red;
+  color: rgb(243, 230, 0);
+}

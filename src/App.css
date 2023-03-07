@@ -1,7 +1,5 @@
 .App {
-  text-align: center;
-  background-image: linear-gradient(180deg, rgba(68, 1, 16, 0.952) 10%, rgba(0,0,0,1) 65%);
-  height: 100vh;
+
   color: lightgray;
   display: flex;
 }
