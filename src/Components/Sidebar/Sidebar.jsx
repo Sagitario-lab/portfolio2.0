@@ -9,7 +9,7 @@ const Sidebar = () => {
 
       <div className='link-cont'>
         <Link className='navegator'>Who am I?</Link>
-        <Link className='navegator'>Experiences</Link>
+        <Link className='navegator' to="/experiences">Experiences</Link>
         <Link className='navegator'>Knowledge</Link>
         <Link className='navegator'>Contact me!</Link>
         <div className='git-linkedin-cont'>
