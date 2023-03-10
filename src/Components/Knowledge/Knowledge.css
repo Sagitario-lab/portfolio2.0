@@ -1,0 +1,19 @@
+.knowledge-cont {
+  font-family: "Rajdhani";
+  padding: 1%;
+}
+
+.know {
+  color: lightgrey;
+  border: 2px solid aqua;
+  border-bottom-right-radius: 25px;
+  padding: 1%;
+  box-shadow: 0px 0px 9px rgb(116, 239, 255);
+  background-color: rgba(214, 214, 214, 0.014);
+}
+
+.know:hover {
+  transition: 1s;
+  box-shadow: 0px 0px 25px rgb(0, 225, 255);
+  color: rgb(243, 230, 0);
+}

@@ -2,17 +2,28 @@
 
 .portfolio-cont {
   background-color: rgba(0, 0, 0, 0.527);
-  width: 20vw;
-  padding: 2%;
   font-size: 1.5rem;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.sec-cont{
+  height: 80%;
+  width: 90%;
 }
 
 .portfolio {
   font-family: "Nothing You Could Do", cursive;
   border: 2px solid rgb(255, 0, 60);
-  border-bottom-right-radius: 25px;
+  border-radius:5px 5px 25px 5px;
   box-shadow: 0px 0px 15px red;
+  padding: 2%;
+  font-size: 3rem;
+  text-decoration: none;
+  color: lightgrey;
 }
 
 .link-cont {
@@ -20,24 +31,30 @@
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
+  width: 90%;
+  height: 60%;
 }
 
 .navegator {
   font-family: "Rajdhani";
-  background-color: rgba(230, 230, 250, 0.103);
+  background-color: rgba(230, 230, 250, 0.041);
   border: none;
   border-radius: 10px;
   margin: 1px;
   padding: 5%;
-  width: 100%;
+  width: 90%;
   font-size: 1.3rem;
   color: rgb(114, 234, 248);
   text-decoration: none;
+  transition: 0.5s;
 }
+
 .navegator:hover {
   background-color: rgba(230, 230, 250, 0.219);
 }
+
 .navegator:focus {
+  transition: 0.5s;
   color: rgb(243, 230, 0);
   background-color: rgba(255, 2, 2, 0.555);
 }
@@ -45,9 +62,21 @@
 .git-linkedin {
   color: rgb(114, 234, 248);
 }
+
 .git-linkedin-cont {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   padding: 1%;
-}
+} 
+
+
+
+
+
+
+
+
+
+
+

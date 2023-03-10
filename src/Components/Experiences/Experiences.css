@@ -1,18 +1,17 @@
-.experiences-cont{
-    display: flex;
-    justify-content: center; 
-    font-family: "Rajdhani";
-    padding: 1%;
+.proyect {
+  max-width: 300px;
+  min-width: 200px;
+  border: 1px solid rgb(240, 70, 70);
+  border-bottom-right-radius: 25px;
+  box-shadow: 0px 0px 10px red;
 }
 
-.exp{
-    color: rgb(114, 234, 248);
-    border: 2px solid rgb(255, 0, 60);
-    border-bottom-right-radius: 25px;
-    padding: 1%;
-}
-.exp:hover{
-    transition: 1s;
-    box-shadow: 0px 0px 15px red;
-  color: rgb(243, 230, 0);
+.exp-text{
+    font-family: "Rajdhani";
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    color: lightgray;
 }

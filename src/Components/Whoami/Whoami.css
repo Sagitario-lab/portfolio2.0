@@ -1,0 +1,32 @@
+.who-cont {
+  display: flex;
+  justify-content: center;
+  font-family: "Rajdhani";
+}
+
+.who-ttl {
+  font-family: "Nothing You Could Do", cursive;
+  padding: 1%;
+  font-size: 2.5rem;
+  color: rgb(243, 230, 0) !important;
+}
+
+.who-info {
+  width: 80%;
+  font-size: 1.8rem;
+    color: lightgray;
+}
+
+.who-info-cont {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.5rem;
+}
+
+.who-background-info {
+  display: flex;
+}
+
+

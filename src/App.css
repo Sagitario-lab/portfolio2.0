@@ -1,11 +1,58 @@
 .App {
-  background-image: url('./Img/oni.png');
+  background-image: url("./Img/oni.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   background-attachment: fixed;
+  box-sizing: border-box;
   color: lightgray;
+  height: 100vh;
+}
+.App-bg {
+  background-image: linear-gradient(
+    180deg,
+    rgba(68, 1, 16, 0.952) 10%,
+    rgba(0, 0, 0, 1) 65%
+  );
+}
+.mobile-view{
+  width: 100vw;
+  height: 100vh;
   display: flex;
+  align-items: center !important;
+  justify-content: center ;
+
+}
+.mobile-cont{
+  padding: 5%;
+}
+.accordeon-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.accordeon {
+  height: 90%;
+  width: 80%;
+}
+.pi{
+  font-size: 2rem;
 }
 
-
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root{
+  background-color: rgba(108, 105, 105, 0.249) !important;
+  
+}
+@media (min-width: 768px) {
+  .mobile-view {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .mobile-view {
+    display: block;
+  }
+  .desktop {
+    display: none !important;
+  }
+}
