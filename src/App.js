@@ -42,7 +42,9 @@ function App() {
                     aria-controls='panel1a-content'
                     id='panel1a-header'
                   >
-                    <Typography style={{color: "rgb(114, 234, 248)"}}>Who am I?</Typography>
+                    <Typography style={{ color: "rgb(114, 234, 248)" }}>
+                      Who am I?
+                    </Typography>
                   </AccordionSummary>
                   <AccordionDetails>
                     <Typography>
@@ -55,7 +57,9 @@ function App() {
                     aria-controls='panel1a-content'
                     id='panel1a-header'
                   >
-                    <Typography style={{color: "rgb(114, 234, 248)"}}>Experiences</Typography>
+                    <Typography style={{ color: "rgb(114, 234, 248)" }}>
+                      Experiences
+                    </Typography>
                   </AccordionSummary>
                   <AccordionDetails>
                     <Typography>
@@ -68,7 +72,9 @@ function App() {
                     aria-controls='panel1a-content'
                     id='panel1a-header'
                   >
-                    <Typography style={{color: "rgb(114, 234, 248)"}}>Knowledge</Typography>
+                    <Typography style={{ color: "rgb(114, 234, 248)" }}>
+                      Knowledge
+                    </Typography>
                   </AccordionSummary>
                   <AccordionDetails>
                     <Typography>
@@ -81,7 +87,9 @@ function App() {
                     aria-controls='panel1a-content'
                     id='panel1a-header'
                   >
-                    <Typography style={{color: "rgb(114, 234, 248)"}}>Contact me!</Typography>
+                    <Typography style={{ color: "rgb(114, 234, 248)" }}>
+                      Contact me!
+                    </Typography>
                   </AccordionSummary>
                   <AccordionDetails>
                     <Typography>

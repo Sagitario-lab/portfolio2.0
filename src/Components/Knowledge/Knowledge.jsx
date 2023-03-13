@@ -5,7 +5,7 @@ export const Knowledge = () => {
   return (
     <div className='knowledge-cont'>
       <Grid container spacing={3}>
-        <Grid item xs={12} md={6} className="asdasdas">
+        <Grid item xs={12} md={6} className='asdasdas'>
           <h1 className='know'>HTML</h1>
         </Grid>
         <Grid item xs={12} md={6}>
@@ -34,6 +34,39 @@ export const Knowledge = () => {
         </Grid>
         <Grid item xs={12} md={6}>
           <h1 className='know'>PHOTOSHOP</h1>
+        </Grid>
+        <Grid item xs={12} md={12}>
+          <h1 className='know'>Languages</h1>
+          <div className='languages-cont'>
+            <div  className='language'>
+              <div className='languages'> English</div>
+              <div>
+                <i className='pi pi-star-fill'></i>
+                <i className='pi pi-star-fill'></i>
+                <i className='pi pi-star-fill'></i>
+                <i className='pi pi-star-fill'></i>
+              </div>
+            </div>
+
+            <div>
+              <div className='languages'> Spanish</div>
+              <div>
+                <i className='pi pi-star-fill'></i>
+                <i className='pi pi-star-fill'></i>
+                <i className='pi pi-star-fill'></i>
+                <i className='pi pi-star-fill'></i>
+                <i className='pi pi-star-fill'></i>
+              </div>
+            </div>
+            <div>
+              <div className='languages'> Portuguese</div>
+              <div>
+                <i className='pi pi-star-fill'></i>
+                <i className='pi pi-star-fill'></i>
+                <i className='pi pi-star-fill'></i>
+              </div>
+            </div>
+          </div>
         </Grid>
       </Grid>
     </div>
