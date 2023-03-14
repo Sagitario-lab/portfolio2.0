@@ -1,9 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Knowledge } from "../Knowledge/Knowledge";
 import Media from "../Media/Media";
 import PortfolioTtl from "../PortfolioTtl/PortfolioTtl";
-import { Whoami } from "../Whoami/Whoami";
 import "./Sidebar.css";
 
 const Sidebar = () => {

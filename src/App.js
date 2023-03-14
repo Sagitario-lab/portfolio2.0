@@ -11,7 +11,6 @@ import { Contact } from "./Components/Contact/Contact";
 import { Experiences } from "./Components/Experiences/Experiences";
 import { Knowledge } from "./Components/Knowledge/Knowledge";
 import Media from "./Components/Media/Media";
-import PortfolioTtl from "./Components/PortfolioTtl/PortfolioTtl";
 import Sidebar from "./Components/Sidebar/Sidebar.jsx";
 import { Whoami } from "./Components/Whoami/Whoami";
 
