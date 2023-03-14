@@ -10,6 +10,8 @@ import "./App.css";
 import { Contact } from "./Components/Contact/Contact";
 import { Experiences } from "./Components/Experiences/Experiences";
 import { Knowledge } from "./Components/Knowledge/Knowledge";
+import Media from "./Components/Media/Media";
+import PortfolioTtl from "./Components/PortfolioTtl/PortfolioTtl";
 import Sidebar from "./Components/Sidebar/Sidebar.jsx";
 import { Whoami } from "./Components/Whoami/Whoami";
 
@@ -99,23 +101,7 @@ function App() {
                 </Accordion>
               </div>
             </div>
-
-            <div className='git-linkedin-cont'>
-              <a
-                href='https://github.com/Sagitario-lab'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <i className='pi pi-github git-linkedin'></i>
-              </a>
-              <a
-                href='linkedin.com/in/ignacio-ulman-49b997240'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <i className='pi pi-linkedin git-linkedin'></i>
-              </a>
-            </div>
+            <Media></Media>
           </div>
         </div>
       </div>

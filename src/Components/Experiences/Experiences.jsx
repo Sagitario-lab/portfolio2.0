@@ -13,7 +13,7 @@ export const Experiences = () => {
         <div className='exp-text'>
           I have experiences with some personal proyects that i built for fun,
           some with more, and some with less CSS, they were made only for
-          practice, mainly to practice logic and other times, just for fun.
+          practice, mainly to practice logic and other times... just for fun.
         </div>
         <div className='exp-text mobile-text'>
           Here are some of images next to the links to the respective projects

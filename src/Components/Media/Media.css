@@ -1,0 +1,11 @@
+.git-linkedin {
+  color: rgb(114, 234, 248);
+}
+
+.git-linkedin-cont {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}

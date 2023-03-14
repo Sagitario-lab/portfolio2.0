@@ -20,7 +20,11 @@
   .proyect{
     display:none
   }
+  .exp-text{
+    font-size: 1rem;
+  }
   .mobile-text{
     display: none;
   }
 }
+
