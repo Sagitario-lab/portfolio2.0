@@ -9,7 +9,6 @@ const Sidebar = () => {
     <div className='portfolio-cont'>
       <div className='sec-cont'>
         <PortfolioTtl/>
-
         <nav className='link-cont'>
           <Link className='navegator' to={"/whoami"}>
             Who am I?
