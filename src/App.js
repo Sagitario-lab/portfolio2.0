@@ -43,7 +43,7 @@ function App() {
                     aria-controls='panel1a-content'
                     id='panel1a-header'
                   >
-                    <Typography style={{ color: "rgb(114, 234, 248)" }}>
+                    <Typography >
                       Who am I?
                     </Typography>
                   </AccordionSummary>

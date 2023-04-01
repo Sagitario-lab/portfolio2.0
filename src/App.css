@@ -39,17 +39,20 @@
 .pi{
   font-size: 2rem;
 }
-
 .css-1elwnq4-MuiPaper-root-MuiAccordion-root{
   background-color: rgba(108, 105, 105, 0.249) !important;
   
 }
+
 @media (min-width: 768px) {
   .mobile-view {
     display: none;
   }
 }
 @media (max-width: 768px) {
+  .css-67l5gl{
+    background-color:rgba(230,230,250,.041) !important;
+  }
   .mobile-view {
     display: block;
   }
