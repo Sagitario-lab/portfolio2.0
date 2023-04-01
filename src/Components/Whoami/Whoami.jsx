@@ -19,17 +19,24 @@ export const Whoami = () => {
         <div className='who-info-cont'>
           <div className='who-ttl'>Background</div>
           <div className='who-info'>
-            I have been learning on my own for 3 years, I started with C, then I
-            learned C++, and then I started with HTML, CSS and Javascript. Once
-            I had a good base with html, css and javascript I got into Reactjs
-            starting to make web pages to practice and gain experience on my
-            own, recently I got into the backend area learning how to use
-            expressjs, mysql and microsoft sql server (which I learned to use a
-            year ago at 'ITUOM', while I was studying databases in the second
-            year of the "Higher Technician in Systems Analyst" degree). Now I am
-            looking for a job to be able to put in practice all my knowledge and
-            be able to learn, alone or teaming up with other people, as much as
-            possible.
+            Let me introduce me, I´m a self-taught junior web developer who is
+            currently studying for a degree in Systems Analysis. I´m a highly
+            motivated and dedicated web developer who has learned his skills
+            through self-study and practice. As a front-end developer, i have a
+            deep understanding of HTML, CSS, and JavaScript. <br />
+            I also have experience working with back-end technologies, including
+            MySQL and Node.js. Despite not having a formal education in web
+            development, my passion for the field has driven me to learn and
+            develop my skills on his own. Currently, I´m studying for a degree
+            in Systems Analysis, which will give me a solid foundation in
+            software development and information technology. <br />
+            I´m excited to combine my formal education with his practical
+            experience to become an even better web developer. <br /> Overall,
+            I´m a junior web developer with a passion for learning and
+            developing his skills. With my strong knowledge of HTML, CSS,
+            JavaScript, MySQL, Node.js, and his formal education in Systems
+            Analysis, I´m well-prepared to take on new challenges and excel in
+            his web development career.
           </div>
         </div>
       </Grid>
